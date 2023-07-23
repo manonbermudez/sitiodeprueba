@@ -1,0 +1,24 @@
+h1{
+    color:black;
+}
+body{
+    font-family: 'Geologica', sans-serif;
+}
+
+
+ 
+header.equipo{
+    background-color: red;
+}
+
+header.asociate{
+    background-color: red;
+}
+
+header.sedes{
+    background-color: red;
+}
+
+header.historia{
+    background-color: red;
+}
