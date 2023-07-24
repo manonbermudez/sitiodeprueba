@@ -1,0 +1,23 @@
+@import "reset";
+@import "variables";
+@import "mixins";
+
+h1{
+    color: black;
+    justify-self: left;
+    font-size: 300%;
+    text-align: center;
+}
+.logo{
+    justify-self: left;
+}
+.encabezado{
+    @include grid(auto, auto, center);
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1;
+    grid-template-areas: "logo h1";
+
+}
+
+@import "queries";
