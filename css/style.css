@@ -381,13 +381,20 @@ iframe{
 }
 
 /*Haciendo responsive el sitio*/
-@media screen and (max-width:1300px) { 
+/* @media screen and (max-width:1300px) { 
   .container{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 50%;
   }
+ } */
+
+ .flex-container{
+ flex-flow: row wrap;
+ justify-content: space-between;
+  display: flex;
+
  }
   
 
