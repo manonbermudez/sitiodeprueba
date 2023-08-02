@@ -41,9 +41,9 @@ section h6{
 
 /*Menú de navegación*/
 
-nav.navbar {
+.navbar-expand-lg bg-light {
   position: sticky;
-  background-color: black;
+  color: #000;
   display: block;
   width: 100%; 
   margin:1px;
