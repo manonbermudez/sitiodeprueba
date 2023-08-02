@@ -43,13 +43,15 @@ section h6{
 
 .navbar-expand-lg bg-light {
   position: sticky;
-  color: #000;
   display: block;
   width: 100%; 
   margin:1px;
   height: 80px;
 }
- .navbar ul {
+.nav .navbar {
+  background-color: #000;
+}
+ /* .navbar ul {
   list-style: none;
  }
 
@@ -63,7 +65,7 @@ margin: 2px;
   color: white;
   text-decoration: none;
   font-size: 20px;
- }
+ } */
 
  /*check-menu*/
  #checkbox-menu, label.menu {
