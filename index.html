@@ -4,78 +4,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Informacion de Manchester United en español">
+  <meta name="keywords" content="informacion, partidos,futbol, premierleague, diablos rojos, championsleague">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/bootstrap.css">
-<link rel="stylesheet" href="./css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/js/main.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   <title>MANUNITEDARG</title>
 </head>
 
-
 <body>
-  <header class="inicio">
-    <section class="encabezado">
-    <img class="logo" src="../img/escudorojo.png" alt="escudo">
-    <h1>MANCHESTER UNITED ARGENTINA</h1>
-  </section>
-    
-  </header>
+ <!--cabecera-->
+ <header class="cabecera">
+  <img class="logo" src="./img/escudorojo.png">
+  <h1>MANCHESTER UNITED ARGENTINA</h1>
+ </header>
+<section>
+  <h6><strong>El sitio Red Devil de Argentina</strong></h6>
+</section>
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
+ <!--Menú de navegación-->
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+ <nav class="navbar" id="nav">
+  <input type="checkbox" id="checkbox-menu">
+  <label for="checkbox-menu"><i class='bx bx-menu'></i></label> 
+  <ul>
+    <li class="nav-item active">
+      <a href="/index.html">Inicio</a>
+    </li>
+    <li class="nav-item">
+      <a href="./pages/equipo.html">Equipo</a>
+    </li>
+    <li class="nav-item">
+      <a href="./pages/asociate.html">Asociate</a>
+    </li>
+    <li class="nav-item">
+      <a href="./pages/sedes.html">Sedes</a>
+    </li>
+    <li class="nav-item">
+      <a href="./pages/historia.html">Historia</a>
+    </li>
+  </ul>
+</nav>
 
-      </button>
-      <a class="navbar-brand" href="./index.html">inicio</a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="./pages/equipo.html">equipo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./pages/asociate.html">asociate</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./pages/sedes.html">sedes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./pages/historia.html">historia</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
 
-  <section>
-    <!--img-->
-    <img src="../img/cardsnoticia1.png" alt="Imagen noticia">
-    <img src="../img/cardsnoticia2.png" alt="Imagen noticia">
-    <img src="../img/cardsnoticia3.png" alt="Imagen noticia">
-  </section>
+
+<!--CARDS-->
+<div class="container">
+  <div class="card">
+   <figure>
+    <img src="./img/amistoso.jpg">
+   </figure>
+   <div class="contenido">
+    <h4>Palpitando un nuevo amisotos</h4>
+    <p>Los jugadores del plantel mayor ya están en Houston para el encuentro del jueves ante Real Madrid.
+    </p>
+    <a href="https://www.manutd.com/es/news/detail/team-news-for-real-madrid-v-man-united-in-houston-2023">Leer más</a>
+   </div>
+  </div>
+  <div class="card">
+   <figure>
+    <img src="./img/jadonsancho.webp">
+   </figure>
+   <div class="contenido">
+    <h4>Sancho quiere seguir creciendo</h4>
+    <p>Jadon Sancho está pasando por un gran momento individual en esta pretemporada de verano.
+    </p>
+    <a href="https://www.manutd.com/es/news/detail/erik-ten-hag-praises-jadon-sancho-during-press-conference-in-san-diego">Leer más</a>
+   </div>
+  </div>
+  <div class="card">
+   <figure>
+    <img src="./img/nuevacamiseta - copia.webp">
+   </figure>
+   <div class="contenido">
+    <h4>Lanzamiento del nuevo vonjunto visitante</h4>
+    <p>Manchester United presentó la indumentaria secundaria que vestirán los jugadores la próxima temporada.
+    </p>
+    <a href="https://www.manutd.com/es/news/detail/manchester-united-and-adidas-launch-2023-24-away-kit">Leer más</a>
+   </div>
+  </div>
+</div>
+
+
+<p>HECHALE UN VISTAZO A LOS SUIGUIENTES VIDEOS</p>
   <!--Iframes-->
+  
   <iframe width="560" height="315" src="https://www.youtube.com/embed/-_BWG_6cUcI" title="YouTube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -88,19 +107,32 @@
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen></iframe>
+    
 
-  <footer>
-    <section class="footer">
-      <hr>
-      <img src="../img/reddevil.png" alt="imagen-logo">
-      <ul class="footerdata">
-        <li>Email:manunitedarg@gmail.com</li>
-        <li>Twitter:manunitedargenti@gmail.com</li>
-      </ul>
-    </section>
+    <!--footer-->
+
+  <footer class="footer">
+
+    <div class="container1">
+
+      <div class="footer-row">
+        <img src="/img/reddevil.png" width="200px" height="150px">
+      </div>
+      
+      <div class="footer-links">
+        <h4>NUESTRAS REDES</h4>
+        <div class="social-link">
+          <a href="https://twitter.com/mutdargentina?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> <i class="fab fa-twitter"></i></a>
+<a href="https://www.facebook.com/ManchesterUnitedArg"> <i class="fab fa-facebook-f"></i></a>
+<a href="https://www.instagram.com/mutdargentina/"> <i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
   </footer>
 
   <script src="./js/popper.js"></script>
-<script src="./js/bootstrap.js"></script>
+  <script src="./js/bootstrap.js"></script>
 </body>
+
 </html>

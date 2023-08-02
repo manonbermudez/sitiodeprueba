@@ -4,119 +4,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="United a la fanpage Red Devil latinoamericana">
+  <meta name="keywords" content="fanpage, diablos rojos, asociate, unete">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/bootstrap.css">
-  <link rel="stylesheet" href="../css/style.css">
-  <title>asociate</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Asociate</title>
 </head>
 
 
 <body>
-  <header class="asociate">
-    <img src="../img/escudorojo.png" alt="escudo">
-    <h1>asociate</h1>
+  <header class="cabecera">
+    <img src="/img/escudorojo.png">
+    <h1>MANCHESTER UNITED ARGENTINA</h1>
+   </header>
+  <section>
+    <h6><strong>El sitio Red Devil de Argentina</strong></h6>
+  </section>
 
-  </header>
+  <!--Menú de navegación-->
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-
-      </button>
-      <a class="navbar-brand" href="/index.html">inicio</a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="./equipo.html">equipo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./asociate.html">asociate</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./sedes.html">sedes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./historia.html">historia</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
+  <nav class="navbar" id="nav">
+    <input type="checkbox" id="checkbox-menu">
+    <label for="checkbox-menu"><i class='bx bx-menu'></i></label> 
+    <ul>
+      <li class="nav-item active">
+        <a href="/index.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a href="/pages/equipo.html">Equipo</a>
+      </li>
+      <li class="nav-item">
+        <a href="/pages/asociate.html">Asociate</a>
+      </li>
+      <li class="nav-item">
+        <a href="/pages/sedes.html">Sedes</a>
+      </li>
+      <li class="nav-item">
+        <a href="/pages/historia.html">Historia</a>
+      </li>
+    </ul>
   </nav>
-  <nav>
+
+  </nav style="background_image:url(hinchada.webp)">
+  
+  
+
+ 
     <h1>EL CLUB MAS GRANDE DE MANCHESTER</h1>
-    <h2>Beneficios de asociarte</h2>
+      <h3><b>Beneficios de asociarte</b></h3>
     <!--lista-->
     <ul>
-      <li>Acceso a la compra de entradas por partido con prioridad</li>
-      <li>Acceso al club y sus actividades</li>
-      <li>Beneficios en comercios adheridos</li>
-      <li>Sorteos y experiencias millonarias</li>
+      <h6><em>Acceso a la compra de entradas por partido con prioridad</em></h6>
+      <h6><em>Acceso al club y sus actividades</em></h6>
+   <h6><em>Beneficios en comercios adheridos</em></h6>
+     <h6> <em>Sorteos y experiencias millonarias</em></h6>
     </ul>
     <h3>COMPLETE EL SIGUIENTE FORMULARIO</h3>
   </nav>
 
   <section>
-    <form action="#">
-      <div>
-        <label for="nombre">NOMBRES</label>
-        <input type="text" name="nombre" id="nombre">
-      </div>
-
-      <div>
-        <label for="apellido">APELLIDO</label>
-        <input type="text" name="apellido" id="apellido">
-      </div>
-
-      <div>
-        <label for="DNI">DNI</label>
-        <input type="text" name="DNI" id="DNI">
-      </div>
-
-      <div>
-        <label for="fecha de nacimiento">FECHA DE NACIMIENTO</label>
-        <input type="text" name="fecha de nacimiento" id="fecha de nacimiento">
-      </div>
-
-      <div>
-        <label for="telefono">TELEFONO</label>
-        <input type="text" name="telefono" id="telefono">
-      </div>
-
-      <div>
-        <label for="email">EMAIL</label>
-        <input type="text" name="email" id="email">
-      </div>
-      <div>
-        <input type="submit" value="Enviar">
-      </div>
+    <form class="form">
+      <h2>Asociate</h2>
+      <p type="Nombre:"><input placeholder="Indique su nombre completo..."></p>
+  
+      <p type="DNI:"><input placeholder="Indique su número de documento..."></p>
+  
+      <p type="Fecha de nacimiento:"><input placeholder="Indique su fecha de nacimiento..."></p>
+  
+      <p type="Teléfono:"><input placeholder="Indique su teléfono..."></p>
+  
+      <p type="Email:"><input placeholder="Indique su Email..."></p>
+  
+      <button>Enviar formulario</button>
+     
     </form>
+  
   </section>
 
-  <footer>
+  <!-- <footer>
     <section class="footer">
       <hr>
       <img src="../img/reddevil.png" alt="imagen-logo">
@@ -125,7 +93,7 @@
         <li>Twitter:manunitedargenti@gmail.com</li>
       </ul>
     </section>
-  </footer>
+  </footer> -->
 
   <script src="./js/bootstrap.js"></script>
 </body>
