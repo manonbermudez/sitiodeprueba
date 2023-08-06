@@ -24,4 +24,42 @@ h1 {
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 1;
   grid-template-areas: "logo h1";
+}
+
+@media (max-width: 600px) {
+  section {
+    flex-direction: column;
+  }
+  header {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+  }
+  .item1, .item2, .item3, .h3 {
+    width: 100%;
+  }
+  .flex-container {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    display: flex;
+  }
+  footer {
+    width: 100%;
+  }
+  img .estadio {
+    width: 100%;
+  }
+  img .imagen {
+    width: 100%;
+  }
+  section .hist1 {
+    width: 100%;
+  }
+  ul .socio h6 {
+    size: 100%;
+  }
+  .hist1 p {
+    size: 80%;
+  }
 }/*# sourceMappingURL=style.css.map */
